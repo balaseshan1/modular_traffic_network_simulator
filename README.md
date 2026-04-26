@@ -1,5 +1,3 @@
-# modular_traffic_network_simulator
-
 # Traffic Simulator
 
 A modular traffic simulation system for a directed road network with multiple junctions, sources, and sinks. The simulator models vehicle movement using a time-step engine and visualizes traffic flow as an animated GIF.
