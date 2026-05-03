@@ -39,7 +39,7 @@ pip install matplotlib numpy
 
 ## How to Run
 
-python main.py
+python3 main.py
 
 ## Output
 
