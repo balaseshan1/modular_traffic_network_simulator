@@ -44,9 +44,6 @@ python main.py
 ## Output
 
 - traffic.gif: animated simulation
-- Console output:
-  - Average waiting time per sink
-  - Total number of cars arrived per sink
 
 ## Simulation Model
 
@@ -70,10 +67,10 @@ Vehicles move one slot per tick.
 ### Sources
 - Generate vehicles using Poisson distribution
 - Mean rate controls traffic intensity
+- If different sources, that inject vehicles into the same outgoing road, generate a vehicle at same time, only one of the vehicles will be (randomly) selected to enter into the outgoing road.
 
 ### Sinks
 - Collect exiting vehicles
-- Compute statistics such as travel time
 
 ### Simulation Engine
 
@@ -88,5 +85,5 @@ Each tick:
 
 - Roads are lines between junctions
 - Vehicles are colored points
-- Color indicates destination with slight variation
-- Layout computed automatically
+- Color indicates source of the vehicle
+- Layout could be computed automatically or positions of the junctions could be manually specified
